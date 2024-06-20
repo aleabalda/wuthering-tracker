@@ -2,25 +2,25 @@ export const TaskData = {
   Daily: [
     {
       icon: "",
-      title: "Use all waveplates",
+      title: "Waveplates",
       description:
         "Make sure to use as many waveplates as possible (ideally all 240).",
     },
     {
       icon: "",
-      title: "Complete activities in the guidebook",
+      title: "Guidebook",
       description:
         "Go through activities in the guidebook and complete them until achieving 100 points for all the rewards.",
     },
     {
       icon: "",
-      title: "Complete the daily quest(s)",
+      title: "Daily Quest(s)",
       description:
         "Do the daily quest(s). It will give you decent rewards and 40 activity points for your guidebook.",
     },
     {
       icon: "",
-      title: "Complete the daily Pioneer Podcast tasks.",
+      title: "Daily Pioneer Podcast Highlights.",
       description:
         "Go through the Pioneer Podcast daily highlights and complete all of them to gain optimal battle pass experience.",
     },

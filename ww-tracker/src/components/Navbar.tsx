@@ -1,7 +1,7 @@
 export const Navbar: React.FC = () => {
   return (
     <nav>
-      <ul className="flex list-none gap-4 text-lg">
+      <ul className="flex items-center list-none gap-4 text-lg">
         <li>
           <a href="#daily">Daily</a>
         </li>
