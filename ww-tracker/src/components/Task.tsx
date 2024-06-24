@@ -44,12 +44,16 @@ export const Task = ({ icon, title, description, endDate }: TaskProps) => {
 
   return (
     <>
-      <div className="p-4 bg-primary rounded shadow-md">
+      <div className="p-4 bg-primary rounded shadow-lg">
         <div className="flex gap-2 items-center">
           {icon === "" ? (
             <p>icon</p>
           ) : (
-            <img src={icon} alt="task icon" className="w-10 object-contain" />
+            <img
+              src={icon}
+              alt="task icon"
+              className="w-8 h-8 object-cover rounded-full"
+            />
           )}
           <p className="mr-auto">{title}</p>
           <button className="text-sm" onClick={toggleMore}>

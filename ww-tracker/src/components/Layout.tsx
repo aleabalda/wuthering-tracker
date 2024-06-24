@@ -4,7 +4,7 @@ import { Home } from "./Home";
 
 export const Layout: React.FC = () => {
   return (
-    <div className="flex flex-col font-tw text-[#e0e0e0]">
+    <div className="flex flex-col font-tw text-[#e0e0e0] h-dvh">
       <Header />
       <Home />
       <Footer />

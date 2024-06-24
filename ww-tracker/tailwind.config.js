@@ -9,6 +9,7 @@ export default {
       },
       backgroundImage: {
         wwBg: ["url('/src/assets/images/wuthering_waves.jpg')"],
+        wwBgTwo: ["url('/src/assets/images/wuthering_waves_wpjpg.avif')"],
       },
       backgroundColor: {
         primary: "#2c2c2c",
