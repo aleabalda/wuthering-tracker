@@ -4,7 +4,7 @@ import { TaskData } from "./TaskData";
 export const Events: React.FC = () => {
   const eventTasks = TaskData.Events;
   return (
-    <section id="events" className="flex flex-col gap-4 w-[470px]">
+    <section id="events" className="flex flex-col gap-4 xl:w-full">
       <h2 className="text-xl font-twBold bg-primary w-fit p-2 rounded shadow-md">
         Events
       </h2>
@@ -14,6 +14,7 @@ export const Events: React.FC = () => {
           icon={val.icon}
           title={val.title}
           description={val.description}
+          endDate={val.endDate}
         />
       ))}
     </section>

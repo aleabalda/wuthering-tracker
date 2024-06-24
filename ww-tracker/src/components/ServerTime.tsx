@@ -37,9 +37,9 @@ export const ServerTime: React.FC<ServerTimeProps> = ({ server }) => {
   return (
     <div>
       {/* <p>Current Time: {currentTime.toUTCString()}</p> */}
-      <p>
-        Time until Daily Reset: {timeUntilReset.hours} hours,{" "}
-        {timeUntilReset.minutes} minutes, {timeUntilReset.seconds} seconds
+      <p className="text-xs sm:text-lg">
+        Time until Daily Reset: {timeUntilReset.hours}h,{" "}
+        {timeUntilReset.minutes}m, {timeUntilReset.seconds}s
       </p>
     </div>
   );

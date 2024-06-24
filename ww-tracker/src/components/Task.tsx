@@ -44,28 +44,28 @@ export const Task = ({ icon, title, description, endDate }: TaskProps) => {
 
   return (
     <>
-      <div className="p-4 bg-primary rounded shadow-lg">
+      <div className="p-4 bg-primary rounded shadow-lg xl:w-full">
         <div className="flex gap-2 items-center">
-          {icon === "" ? (
-            <p>icon</p>
-          ) : (
-            <img
-              src={icon}
-              alt="task icon"
-              className="w-8 h-8 object-cover rounded-full"
-            />
-          )}
-          <p className="mr-auto">{title}</p>
-          <button className="text-sm" onClick={toggleMore}>
+          <img
+            src={icon}
+            alt="task icon"
+            className="w-8 h-8 object-cover rounded-full"
+          />
+          <p className="mr-auto text-sm">{title}</p>
+          <button className="text-xs" onClick={toggleMore}>
             {more ? "View Less" : "View More"}
           </button>
-          <p>{endDate}</p>
           <button onClick={toggleChecked}>
             {checked ? <CheckBoxIcon /> : <CheckBoxOutlineBlankIcon />}
           </button>
         </div>
         {more && (
-          <p className="mt-4 text-sm bg-secondary p-2 rounded">{description}</p>
+          <>
+            <p className="mt-4 text-xs bg-secondary p-2 rounded">
+              {description}
+            </p>
+            <p className="text-sm mt-2">End Date: {endDate}</p>
+          </>
         )}
       </div>
     </>

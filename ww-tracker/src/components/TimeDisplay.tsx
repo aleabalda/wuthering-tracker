@@ -14,10 +14,10 @@ export const TimeDisplay: React.FC = () => {
   };
 
   return (
-    <div className="bg-primary flex items-center gap-4">
+    <div className="bg-primary flex items-center justify-between gap-4">
       <ServerTime server={selectedServer} />
       <select
-        className="bg-primary"
+        className="bg-primary text-sm sm:text-lg"
         onChange={handleChange}
         value={selectedServer.name}
       >

@@ -13,6 +13,10 @@ import solitary from "../assets/images/solitary_path.png";
 import ascendant from "../assets/images/yinlin.png";
 import exploration from "../assets/images/wuthering_exploration.png";
 import chordCleansing from "../assets/images/chord_cleansing.png";
+import yuanwu from "../assets/images/yuanwu.png";
+
+const dailyEndDate = "Daily Reset";
+const weeklyEndDate = "Weekly Reset";
 
 export const TaskData = {
   Daily: [
@@ -21,24 +25,28 @@ export const TaskData = {
       title: "Waveplates",
       description:
         "Make sure to use as many waveplates as possible (ideally all 240).",
+      endDate: dailyEndDate,
     },
     {
       icon: guidebook,
       title: "Guidebook",
       description:
         "Go through activities in the guidebook and complete them until achieving 100 points for all the rewards.",
+      endDate: dailyEndDate,
     },
     {
       icon: daily,
       title: "Daily Quest(s)",
       description:
         "Do the daily quest(s). It will give you decent rewards and 40 activity points for your guidebook.",
+      endDate: dailyEndDate,
     },
     {
       icon: pioneer,
       title: "Daily Pioneer Podcast Highlights.",
       description:
         "Go through the Pioneer Podcast daily highlights and complete all of them to gain optimal battle pass experience.",
+      endDate: dailyEndDate,
     },
   ],
   Weekly: [
@@ -47,18 +55,21 @@ export const TaskData = {
       title: "Weekly bosses",
       description:
         "Defeat the weekly bosses, currently 3 (Bell Borne, Scar, Statue of Crownless), ideally all 3 claims for each boss.",
+      endDate: weeklyEndDate,
     },
     {
       icon: pioneer,
       title: "Pioneer Podcast Weekly Highlights",
       description:
         "Go through the Pioneer Podcast weekly tasks and complete as many as you can/need for Pioneer Podcast experience.",
+      endDate: weeklyEndDate,
     },
     {
       icon: tower,
       title: "Tower of Adversity",
       description:
         "Go through the tower of adversity levels and complete as many as you can.",
+      endDate: weeklyEndDate,
     },
   ],
   Events: [
@@ -66,46 +77,53 @@ export const TaskData = {
       icon: exploration,
       title: "Wuthering Exploration",
       description: "2 quests to be done daily",
-      endDate: "",
+      endDate: "06/27",
     },
     {
       icon: depths,
       title: "Depths of Illusive Realm",
       description:
         "Complete all the levels and as many challenges as possible/necessary to clear out the shop.",
-      endDate: "",
+      endDate: "06/27",
+    },
+    {
+      icon: yuanwu,
+      title: "Rumbling Hollows",
+      description:
+        "Complete Tower of Adversity Stable Zone and Experiment Zone",
+      endDate: "None",
     },
     {
       icon: ascendant,
       title: "Ascendant Aces",
       description: "Demo all the limited banner characters to receive rewards",
-      endDate: "",
+      endDate: "06/26",
     },
     {
       icon: solitary,
       title: "Solitary Path",
       description:
         "Yinlin's Storyline; complete it to receive rewards such as union exp and asterite.",
-      endDate: "",
+      endDate: "06/26",
     },
     {
       icon: alloy,
       title: "Alloy Smelt",
       description:
         "Complete all stages of this event dungeon to receive all rewards possible.",
-      endDate: "",
+      endDate: "06/27",
     },
     {
       icon: secondComing,
       title: "Second Coming of Solaris",
       description: "Talk to Maqi and turn in rewards",
-      endDate: "",
+      endDate: "06/27",
     },
     {
       icon: chordCleansing,
       title: "Chord Cleansing",
       description: "Double drops for tacet fields, 3 times maximum.",
-      endDate: "",
+      endDate: "06/27",
     },
     {
       icon: awakening,
