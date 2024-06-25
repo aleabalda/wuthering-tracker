@@ -1,6 +1,8 @@
 # Wuthering Waves Tracker
 A web app that allows users to track their daily, weekly, and event progress on the game Wuthering Waves.
 
+https://wuthering-tracker.vercel.app/ 
+
 ## Features
 1. Displays the time until the games daily reset
 2. Displays a list for daily, weekly, and event tasks.
